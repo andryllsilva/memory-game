@@ -1,0 +1,56 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login .login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login .login-container img{
+    width: 140px;
+}
+
+.login .login-container h1{
+    font-size: 2.5rem;
+}
+
+.login  input{
+    max-width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    border: black solid 2px;
+    outline: none;
+}
+
+.login button{
+    padding: 10px;
+    max-width: 250px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    background-color: var(--cor-button);
+    color: #fff;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.login .login-button:disabled{
+    background-color: rgb(236, 236, 236);
+    color: rgb(160, 156, 156);
+}
