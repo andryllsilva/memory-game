@@ -1,6 +1,11 @@
 html{
     font-size: 62.5%;
     font-family: 'Press Start 2P', cursive;
+    background-image: url(../images/akazabg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
 }
 
 .login{
@@ -25,6 +30,7 @@ html{
 
 .login .login-container h1{
     font-size: 2.5rem;
+    color: #fff;
 }
 
 .login  input{

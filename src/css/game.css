@@ -8,6 +8,7 @@ main {
     justify-content: center;
     padding: 20px 20px 50px;
     position: relative;
+    background-image: url(../images/akazabg.gif);
 }
 
 
@@ -63,18 +64,6 @@ main {
     opacity: 0.7;
 }
 
-.first-character{
-    width: 300px;
-    position: absolute;
-    top: 20%;
-    left: 2%;
-
-
-}
-
-.second-character{
-    width: 150px;
-    position: absolute;
-    top: 20%;
-    right: 5%;
+.grid .timer{
+    font-family: 'Press Start 2P', cursive;
 }
